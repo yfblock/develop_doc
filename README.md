@@ -1,3 +1,3 @@
-# Headline
+# Develop notes and study notes
 
-> An awesome project.
+Hi, I am a developer. I am interested in Rust and OS.

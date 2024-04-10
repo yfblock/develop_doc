@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Guide](1.md)
-
+* [Note](./note.md)
 * [Daily Paper](./daily_paper.md)
+* [Example](./example.md)
