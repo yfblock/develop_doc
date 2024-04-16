@@ -30,3 +30,19 @@ cargo-target = "riscv64imac-unknown-none-elf"
 cpu = "thead-c906" # Override the cpu config.
 ```
 
+#### 关于 Cargo [Workspace.dependencies] 的使用
+
+1. 在项目根目录 [Workspace.dependencies] 中可以去写依赖
+
+```toml
+[workspace.dependencies]
+log = "0.4"
+```
+
+2. 然后在各个子模块中使用 
+
+```toml
+[dependencies]
+log = { workspace = true }
+```
+
