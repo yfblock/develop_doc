@@ -46,3 +46,4 @@ log = "0.4"
 log = { workspace = true }
 ```
 
+[informations https://doc.rust-lang.org/cargo/reference/workspaces.html](https://doc.rust-lang.org/cargo/reference/workspaces.html)
