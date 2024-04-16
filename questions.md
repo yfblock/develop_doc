@@ -21,3 +21,12 @@ target_os = "byteos"
 cpu = "thead-c906"
 drivers = ""
 ```
+
+甚至可以添加上特定的架构信息和 target 来编译不同的平台
+
+```toml
+[ebuild.target.riscv64-qemu.cfg]
+cargo-target = "riscv64imac-unknown-none-elf"
+cpu = "thead-c906" # Override the cpu config.
+```
+
