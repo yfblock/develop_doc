@@ -13,3 +13,6 @@
 #### 关于编写 Cargo 模块化工具的思路
 
 目前 cargo build 工具的缺点，或者说是 Cargo 工具的缺点是，无法有效的处理 features, 且 features 会存在于项目的各个地方，这个时候很难去统一，且不太支持 Rust 已经支持的 --cfg 进行特定的 config 设置，所有的配置几乎都要通过 feature 进行设置，是否可以编写一个新的工具（初步命名为 cargo ebuild），通过设置一个新的配置文件，或者针对 Workspace 的配置文件进行扩充，可以将 cfg 传递到 Rust 代码的每个地方。
+
+1. 配置文件或者扩充 Workspace(Cargo.toml [Workspace])
+2. 
