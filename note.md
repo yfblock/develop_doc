@@ -4,6 +4,52 @@
 
 <!-- div:title-panel -->
 
+## 2024/4/16
+
+<!-- div:left-panel -->
+
+#### Trying 
+
+How to seperate the module from the kernel or ByteOS?
+
+What should I do if I want to write a 
+
+I think we should let kernel to manage the workspace's cargo.toml, because this file will be Override by tool.
+
+<!-- div:title-panel -->
+
+## 2024/4/15
+
+<!-- div:left-panel -->
+
+How to split module from the os?
+
+what should I do if I want to split modules to kernel? Just using kernel tool to download the module info from kernel?
+
+I think I should to write a extend tool to handle this logic.
+
+This tool can use mask.toml or patch.toml to instead of patch.
+
+Reduce the relation between the modules.
+
+```toml
+
+```
+
+What should the tool to do is download the git module to local, and write patch info to kernel.
+
+Is this right?
+
+```toml
+# General Denpendencies
+[dependencies]
+
+# ByteOS Specific Dependencies
+[target.'cfg(target_ps = "ByteOS")'.dependencies]
+```
+
+<!-- div:title-panel -->
+
 ## 2024/4/12
 
 <!-- div:left-panel -->
