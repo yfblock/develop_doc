@@ -18,7 +18,6 @@ We can define a macro that will generate the boot function and inject the runtim
 Here is an example.
 
 ```rust
-
 boot_entry!(
     entry = crate::main,
     frame_ops = todo!(),   // the type of frame_ops is impl FrameOpsTrait,
@@ -26,7 +25,8 @@ boot_entry!(
 );
 ```
 
-how to push to remote after patch?
+how to push to remote after patch? 
+push to https need authorization.
 
 <!-- div:title-panel -->
 
