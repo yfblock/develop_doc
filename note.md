@@ -17,6 +17,15 @@ We can define a macro that will generate the boot function and inject the runtim
 
 Here is an example.
 
+```rust
+
+boot_entry!(
+    entry = crate::main,
+    frame_ops = todo!(),   // the type of frame_ops is impl FrameOpsTrait,
+    
+);
+```
+
 
 <!-- div:title-panel -->
 
