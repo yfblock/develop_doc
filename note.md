@@ -2,6 +2,18 @@
 
 <!-- panels:start -->
 
+
+<!-- div:title-panel -->
+
+## 2024/4/18
+
+<!-- div:left-panel -->
+
+#### Trying
+
+How to solve the symbol error in the compile time?
+
+
 <!-- div:title-panel -->
 
 ## 2024/4/16
