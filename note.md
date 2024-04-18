@@ -13,6 +13,10 @@
 
 How to solve the symbol error in the compile time?
 
+We can define a macro that will generate the boot function and inject the runtime error.
+
+Here is an example.
+
 
 <!-- div:title-panel -->
 
