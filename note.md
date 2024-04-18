@@ -26,6 +26,7 @@ boot_entry!(
 );
 ```
 
+how to push to remote after patch?
 
 <!-- div:title-panel -->
 
