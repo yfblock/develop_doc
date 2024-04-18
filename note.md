@@ -22,7 +22,7 @@ Here is an example.
 boot_entry!(
     entry = crate::main,
     frame_ops = todo!(),   // the type of frame_ops is impl FrameOpsTrait,
-    
+    allocator_init = crate::mm::heap::init,
 );
 ```
 
