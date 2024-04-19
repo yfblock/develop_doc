@@ -53,5 +53,6 @@ log = { workspace = true }
 
 > 这个方案可能不是很优雅
 
+下面是从 env 中匹配特定类型参数的方案，但是在 2024/3/31 才合并
 https://github.com/rust-lang/rust/pull/99322/files
 Make {integer}::from_str_radix constant #99322
