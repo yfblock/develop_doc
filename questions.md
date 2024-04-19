@@ -47,3 +47,11 @@ log = { workspace = true }
 ```
 
 [informations https://doc.rust-lang.org/cargo/reference/workspaces.html](https://doc.rust-lang.org/cargo/reference/workspaces.html)
+
+
+#### 关于在编译期间使用 env 来传递参数
+
+> 这个方案可能不是很优雅
+
+https://github.com/rust-lang/rust/pull/99322/files
+Make {integer}::from_str_radix constant #99322
