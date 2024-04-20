@@ -51,6 +51,9 @@ or using env-set to modify environment and pass arguments
 
 https://doc.rust-lang.org/nightly/unstable-book/compiler-flags/env-set.html
 
+maybe feature start is a better choice than link = ".text" or nomangle
+https://doc.rust-lang.org/nightly/unstable-book/language-features/start.html#usage-together-with-the-std-crate
+
 <!-- div:title-panel -->
 
 ## 2024/4/18
