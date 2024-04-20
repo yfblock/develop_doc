@@ -54,6 +54,9 @@ https://doc.rust-lang.org/nightly/unstable-book/compiler-flags/env-set.html
 maybe feature start is a better choice than link = ".text" or nomangle
 https://doc.rust-lang.org/nightly/unstable-book/language-features/start.html#usage-together-with-the-std-crate
 
+no_std thread_local attribute
+https://github.com/rust-lang/rust/issues/29594
+
 <!-- div:title-panel -->
 
 ## 2024/4/18
