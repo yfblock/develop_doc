@@ -15,7 +15,13 @@ https://doc.rust-lang.org/nightly/unstable-book/compiler-flags/extern-options.ht
 
 We can use this like using the alloc crate. 
 
+
+
 like this
+
+```shell
+rustc --extern crate_name
+```
 
 ```plain
    Compiling once_cell v1.18.0
@@ -40,6 +46,10 @@ like this
     error: could not compile `crossbeam-utils` (lib) due to previous error
     error: could not compile `num-traits` (lib) due to previous error
 ```
+
+or using env-set to modify environment and pass arguments
+
+https://doc.rust-lang.org/nightly/unstable-book/compiler-flags/env-set.html
 
 <!-- div:title-panel -->
 
