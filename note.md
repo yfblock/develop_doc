@@ -8,6 +8,8 @@
 
 <!-- div:left-panel -->
 
+Finally, I gound out the reason for crate_interface's born.
+
 <!-- div:title-panel -->
 
 ## 2024/4/18
