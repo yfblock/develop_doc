@@ -13,6 +13,34 @@ Finally, I gound out the reason for crate_interface's born and how to extend it.
 This is the doc for rust --extern option.
 https://doc.rust-lang.org/nightly/unstable-book/compiler-flags/extern-options.html
 
+We can use this like using the alloc crate. 
+
+like this
+
+```plain
+   Compiling once_cell v1.18.0
+    error[E0463]: can't find crate for `kernel`
+
+    For more information about this error, try `rustc --explain E0463`.
+    error: could not compile `cfg-if` (lib) due to previous error
+    warning: build failed, waiting for other jobs to finish...
+    error: could not compile `static_assertions` (lib) due to previous error
+    error: could not compile `bitflags` (lib) due to previous error
+    error: could not compile `scopeguard` (lib) due to previous error
+    error: could not compile `num_enum` (lib) due to previous error
+    error: could not compile `timestamp` (lib) due to previous error
+    error: could not compile `downcast-rs` (lib) due to previous error
+    error: could not compile `bare-metal` (lib) due to previous error
+    error: could not compile `linkme` (lib) due to previous error
+    error: could not compile `bitflags` (lib) due to previous error
+    error: could not compile `bit_field` (lib) due to previous error
+    error: could not compile `once_cell` (lib) due to previous error
+    error: could not compile `byteorder` (lib) due to previous error
+    error: could not compile `fdt` (lib) due to previous error
+    error: could not compile `crossbeam-utils` (lib) due to previous error
+    error: could not compile `num-traits` (lib) due to previous error
+```
+
 <!-- div:title-panel -->
 
 ## 2024/4/18
