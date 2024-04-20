@@ -8,7 +8,10 @@
 
 <!-- div:left-panel -->
 
-Finally, I gound out the reason for crate_interface's born.
+Finally, I gound out the reason for crate_interface's born and how to extend it.
+
+This is the doc for rust --extern option.
+https://doc.rust-lang.org/nightly/unstable-book/compiler-flags/extern-options.html
 
 <!-- div:title-panel -->
 
