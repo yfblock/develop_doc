@@ -202,7 +202,7 @@ boot_entry!(
 ```
 
 how to push to remote after patch? 
-push to https need authorization manually. The better solution is push to ssh
+push to https need authorization manually. The better solution is push to ssh.
 
 <!-- div:title-panel -->
 
