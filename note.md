@@ -28,6 +28,8 @@ https://github.com/rust-lang/rust/issues/74875
 
 https://github.com/crossbeam-rs/crossbeam/blob/master/crossbeam-epoch/src/internal.rs
 
+https://github.com/crossbeam-rs/crossbeam/blob/master/crossbeam-epoch/README.md
+
 If we don't do this, we can only alloc a new page and use static generic data types(Can't use alloc).
 
 Some references are here:
@@ -40,6 +42,7 @@ I guess that the ctor will be linked at .init_array section.
 Tls Data will be filled with .tbss and .tdata.
 https://doc.rust-lang.org/beta/unstable-book/compiler-flags/tls-model.html
 
+https://internals.rust-lang.org/t/thread-lifetime-for-tls/13550/7
 
 <!-- div:title-panel -->
 
