@@ -20,6 +20,8 @@ Maybe we can support this by supporting the ctor and dtor like the rust std does
 
 https://github.com/rust-lang/rust/blob/7f2fc33da6633f5a764ddc263c769b6b2873d167/library/std/src/sys/pal/xous/thread_local_key.rs#L22
 
+https://github.com/rust-lang/rust/blob/2225ee1b62ff089917434aefd9b2bf509cfa087f/library/std/src/thread/local.rs
+
 If we don't do this, we can only alloc a new page and use static generic data types(Can't use alloc).
 
 Some references are here:
@@ -28,6 +30,9 @@ https://github.com/dtolnay/inventory/blob/5a50b336f40cd781339118f49daa0cea6cb7f5
 https://www.exploit-db.com/papers/13234
 
 I guess that the ctor will be linked at .init_array section.
+
+Tls Data will be filled with .tbss and .tdata.
+https://doc.rust-lang.org/beta/unstable-book/compiler-flags/tls-model.html
 
 
 <!-- div:title-panel -->
