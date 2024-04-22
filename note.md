@@ -27,6 +27,8 @@ Some references are here:
 https://github.com/dtolnay/inventory/blob/5a50b336f40cd781339118f49daa0cea6cb7f52c/src/lib.rs#L423-L477
 https://www.exploit-db.com/papers/13234
 
+I guess that the ctor will be linked at .init_array section.
+
 
 <!-- div:title-panel -->
 
