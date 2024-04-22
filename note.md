@@ -22,6 +22,12 @@ https://github.com/rust-lang/rust/blob/7f2fc33da6633f5a764ddc263c769b6b2873d167/
 
 https://github.com/rust-lang/rust/blob/2225ee1b62ff089917434aefd9b2bf509cfa087f/library/std/src/thread/local.rs
 
+https://github.com/rust-lang/rust/issues/28129
+
+https://github.com/rust-lang/rust/issues/74875
+
+https://github.com/crossbeam-rs/crossbeam/blob/master/crossbeam-epoch/src/internal.rs
+
 If we don't do this, we can only alloc a new page and use static generic data types(Can't use alloc).
 
 Some references are here:
