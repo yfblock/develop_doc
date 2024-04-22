@@ -48,6 +48,10 @@ https://doc.rust-lang.org/beta/unstable-book/compiler-flags/tls-model.html
 
 https://internals.rust-lang.org/t/thread-lifetime-for-tls/13550/7
 
+https://github.com/Amanieu
+
+https://github.com/Amanieu/thread_local-rs
+
 <!-- div:title-panel -->
 
 ## 2024/4/20
