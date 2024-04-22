@@ -22,6 +22,11 @@ https://github.com/rust-lang/rust/blob/7f2fc33da6633f5a764ddc263c769b6b2873d167/
 
 If we don't do this, we can only alloc a new page and use static generic data types(Can't use alloc).
 
+Some references are here:
+
+https://github.com/dtolnay/inventory/blob/5a50b336f40cd781339118f49daa0cea6cb7f52c/src/lib.rs#L423-L477
+https://www.exploit-db.com/papers/13234
+
 
 <!-- div:title-panel -->
 
