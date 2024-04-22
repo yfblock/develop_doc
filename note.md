@@ -14,8 +14,8 @@ Maybe the thread_local attribute can help us to write the better kernel.
 
 https://github.com/rust-lang/rust/issues/29594
 
-This feature can work fine for mainstream operating systems.
-But it doesn't always available for our operating system.
+This feature works well for mainstream operating systems.
+But it doesn't always work with our operating system.
 Maybe we can support this by supporting the ctor and dtor like the rust std does.
 
 https://github.com/rust-lang/rust/blob/7f2fc33da6633f5a764ddc263c769b6b2873d167/library/std/src/sys/pal/xous/thread_local_key.rs#L22
