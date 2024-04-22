@@ -52,6 +52,8 @@ https://github.com/Amanieu
 
 https://github.com/Amanieu/thread_local-rs
 
+https://docs.rs/thread_local/latest/thread_local/
+
 <!-- div:title-panel -->
 
 ## 2024/4/20
