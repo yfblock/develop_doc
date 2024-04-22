@@ -10,6 +10,8 @@
 
 #### Another knowledge
 
+Maybe the thread_local attribute can help us to write the better kernel.
+
 https://github.com/rust-lang/rust/issues/29594
 
 <!-- div:title-panel -->
