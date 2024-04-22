@@ -30,6 +30,10 @@ https://github.com/crossbeam-rs/crossbeam/blob/master/crossbeam-epoch/src/intern
 
 https://github.com/crossbeam-rs/crossbeam/blob/master/crossbeam-epoch/README.md
 
+https://github.com/rust-lang/rust/pull/10312/files
+
+https://cloud.tencent.com/developer/article/2220168
+
 If we don't do this, we can only alloc a new page and use static generic data types(Can't use alloc).
 
 Some references are here:
