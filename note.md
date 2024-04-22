@@ -8,6 +8,16 @@
 
 <!-- div:left-panel -->
 
+#### Another knowledge
+
+https://github.com/rust-lang/rust/issues/29594
+
+<!-- div:title-panel -->
+
+## 2024/4/20
+
+<!-- div:left-panel -->
+
 Finally, I gound out the reason for crate_interface's born and how to extend it.
 
 This is the doc for rust --extern option.
