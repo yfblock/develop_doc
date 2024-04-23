@@ -2,9 +2,21 @@
 
 <!-- panels:start -->
 
+
 <!-- div:title-panel -->
 
-## 2024/4/20
+## 2024/4/23
+
+<!-- div:left-panel -->
+
+#### Trying to support multi core
+
+But it ocurrs the qemu virtio error.
+qemu-system-riscv64: virtio: bogus descriptor or out of resources
+
+<!-- div:title-panel -->
+
+## 2024/4/22
 
 <!-- div:left-panel -->
 
