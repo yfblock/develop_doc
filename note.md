@@ -54,6 +54,10 @@ https://github.com/Amanieu/thread_local-rs
 
 https://docs.rs/thread_local/latest/thread_local/
 
+We can design a new proc-macro that contains the #[thread_local], after that,  drop the memory using ptr::drop_in_place when the thread is existing was possible.
+
+and use linkme to collect it.
+
 <!-- div:title-panel -->
 
 ## 2024/4/20
