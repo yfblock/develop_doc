@@ -16,9 +16,11 @@ How to check if git repositories dependencies update ?
 > cargo update SPEC_PACKAGE
 ```
 
+It can be executed after finishing remove patch, then it can ensure the package was latest version(Just for yourself).
+
 #### Some issues?
 
-
+When I delete the Cargo.lock to force the cargo to updateb the dependencies to latest version. The build will fail because the fatfs could not find `__log_module_path` in `log`. I found the log verion was upgraded from "0.4.17" to "0.4.21", May be this is a bug. Just record, don't have any motivation to fix it. 
 
 
 <!-- div:title-panel -->
