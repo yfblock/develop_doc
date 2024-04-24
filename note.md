@@ -8,6 +8,17 @@
 
 <!-- div:left-panel -->
 
+#### Trying
+
+How to check if git repositories dependencies update ?
+
+```shell
+> cargo update SPEC_PACKAGE
+```
+
+#### Some issues?
+
+
 
 
 <!-- div:title-panel -->
