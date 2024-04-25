@@ -15,6 +15,8 @@ Percpu depends on the linker script(.ld), so there will have something wrong if 
 Byteos have implmented a simple multicore version based on spin lock. But it's performance reduced by 20 percents when executing the libctest.
 I think this is because the spinlock and the locking range are too large. So it often triggers locking.
 
+(Please enable multi-core to recude performance. Please unplug the discrete graphics card to improve performance. LOL)
+
 <!-- div:title-panel -->
 
 ## 2024/4/24
