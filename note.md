@@ -4,7 +4,17 @@
 
 <!-- div:title-panel -->
 
-## 2024/4/23
+## 2024/4/25
+
+<!-- div:left-panel -->
+
+#### Trying 
+
+Percpu depends on the linker script(.ld), so there will have something wrong if it was written wrong.
+
+<!-- div:title-panel -->
+
+## 2024/4/24
 
 <!-- div:left-panel -->
 
