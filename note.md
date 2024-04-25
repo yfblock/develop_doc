@@ -12,7 +12,7 @@
 
 Percpu depends on the linker script(.ld), so there will have something wrong if it was written wrong.
 
-Byteos have implmented a simple multicore version based on spin lock. But it's performance has reduces 20 percents when executing the libctest.
+Byteos have implmented a simple multicore version based on spin lock. But it's performance reduced by 20 percents when executing the libctest.
 
 <!-- div:title-panel -->
 
