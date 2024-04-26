@@ -1,4 +1,4 @@
-# ByteOS modules and line
+# ByteOS modules and lines
 
 | module name | Rust Line | description |
 | --- | --- | --- |
@@ -34,5 +34,4 @@
 | driver-knvme | 109 | nvme 驱动内核结合层 |
 | backtrace | 26 | 打印异常调用栈 |
 | cv1811-sd | 691 | cvitek-sd 卡通用驱动 |  
-
-共计 Modules: 33  Code: 19499
+| 共计(33) | 19499 | |
