@@ -29,3 +29,8 @@
 | sync | 94 | |
 | timestamp | 71 | |
 | vfscore | 292 | |
+| driver-k210-sdcard | 565 | |
+| driver-kcvitek-sd | 58 | |
+| driver-knvme | 109 | |
+| backtrace | 26 | |
+| cv1811-sd | 691 | |  
