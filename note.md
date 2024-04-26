@@ -17,6 +17,8 @@ I think this is because the spinlock and the locking range are too large. So it 
 
 (Please enable multi-core to recude performance. Please unplug the discrete graphics card to improve performance. LOL)
 
+This situation will be fixed in the future.
+
 <!-- div:title-panel -->
 
 ## 2024/4/24
