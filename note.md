@@ -8,7 +8,10 @@
 
 <!-- div:left-panel -->
 
-#### Trying 
+#### Discussion
+
+hal with high configuration settins, include stack size, floating point and so on.
+
 
 <!-- div:title-panel -->
 
