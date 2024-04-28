@@ -12,6 +12,12 @@
 
 hal with high configuration settins, include stack size, floating point and so on.
 
+#### Trying 
+
+adapt ext4 for byteos, problems.
+
+Q1: Needs riscv64 gc instead of riscv64imac
+
 
 <!-- div:title-panel -->
 
