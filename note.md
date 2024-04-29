@@ -10,6 +10,18 @@
 
 #### Discussion
 
+How to improve the system's performance?
+
+Using Rust Async/Await in context will generate much time.
+
+<!-- div:title-panel -->
+
+## 2024/4/29
+
+<!-- div:left-panel -->
+
+#### Discussion
+
 hal with high configuration settins, include stack size, floating point and so on.
 
 #### Trying 
