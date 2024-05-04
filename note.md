@@ -4,6 +4,19 @@
 
 <!-- div:title-panel -->
 
+## 2024/5/4
+
+<!-- div:left-panel -->
+
+#### Trying
+
+Use nodejs to parse markdown and deserialize it through markdown-it lib. But it is not a appropriate method. Because markdown's descripte ability is low. The subsititution is TOML、YAML and JSON.
+
+We also can use Kellnr. This is a opensouce crates.io, can publish. https://kellnr.io/documentation#installation
+
+
+<!-- div:title-panel -->
+
 ## 2024/4/29
 
 <!-- div:left-panel -->
