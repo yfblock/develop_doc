@@ -16,7 +16,7 @@ hal with high configuration settins, include stack size, floating point and so o
 
 adapt ext4 for byteos, problems.
 
-Q1: Needs riscv64 gc instead of riscv64imac
+Q1: Needs riscv64 gc instead of riscv64imac. But riscv64imac is the standard in competition.
 
 
 <!-- div:title-panel -->
