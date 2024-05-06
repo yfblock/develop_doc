@@ -4,6 +4,41 @@
 
 <!-- div:title-panel -->
 
+## 2024/5/4
+
+<!-- div:left-panel -->
+
+#### Trying
+
+Use nodejs to parse markdown and deserialize it through markdown-it lib. But it is not a appropriate method. Because markdown's descripte ability is low. The subsititution is TOML、YAML and JSON.
+
+We also can use Kellnr. This is a opensouce crates.io, can publish. https://kellnr.io/documentation#installation
+
+
+<!-- div:title-panel -->
+
+## 2024/4/29
+
+<!-- div:left-panel -->
+
+#### Discussion
+
+How to improve the system's performance?
+
+Using Rust Async/Await in context will use much time that irq.
+
+If we want to use async, we can use the combination of this.
+We can write the context in the top of stack, and use general context switch, when enter kernel privilege, use rust poll to handle async function.
+Such as 
+```rust
+match poll(async move || info!("123")) {
+   Poll::pending => switch_context(),
+   Poll::Ready(ret) => ret 
+};
+```
+
+<!-- div:title-panel -->
+
 ## 2024/4/29
 
 <!-- div:left-panel -->
@@ -202,7 +237,7 @@ boot_entry!(
 ```
 
 how to push to remote after patch? 
-push to https need authorization manually. The better solution is push to ssh
+push to https need authorization manually. The better solution is push to ssh.
 
 <!-- div:title-panel -->
 
